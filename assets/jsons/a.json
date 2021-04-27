@@ -1,0 +1,19 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "type":"object",
+  "properties":{
+    "reading":{
+      "type":"number",
+      "title":"Start Odometer",
+      "name":"reading"
+    },
+    "comment":{
+      "type":"text",
+      "title":"Comments",
+      "name":"comment"
+    }
+  },
+  "required":[
+    "reading"
+  ]
+}
